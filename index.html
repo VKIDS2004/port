@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandru  Profolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="icon" href="assets/icon..png">
+</head>
+<body>
+    <button class="gotop" id="gotop" onclick="topFunction()"><img src="assets/uparrow.png" alt=""></button>
+
+
+    <div class="modal" id="modal">
+        
+        <div class="modal-body">
+            <button onclick="closeModal()" class="close-btn">&times;</button>
+            <img id="modal-img" alt="">
+            <!-- <button class="modal-close-btn" onclick="closeModal()">Close</button> -->
+        </div>
+    </div>
+
+    <div class="container">
+        <nav id="navBar">
+            <!-- <img src="https://i.ytimg.com/vi/sLAi9dzsngQ/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgUyhQMA8=&rs=AOn4CLAEebAnTdfNypKYulsGG3jdzwRG-A" alt=""> -->
+            <h2>Chandru Portfolio</h2>
+            <ul>
+                <li><a href="#about" onclick="openCloseNav()">About</a></li>
+                <li><a href="#education" onclick="openCloseNav()">Education</a></li>
+                <li><a href="#skills" onclick="openCloseNav()">Skills</a></li>
+                <li><a href="#social" onclick="openCloseNav()">Social media</a></li>
+                <li><a href="#contact" onclick="openCloseNav()">Contacts</a></li>
+            </ul>
+            <div class="arrow" onclick="openCloseNav()"><img src="assets/right-arrow.png" alt=""></div>
+        </nav>
+        <div class="header">
+            <div class="head-container">
+                <div class="head-con">
+                    <div class="name">
+                        <h1>Hi, I'm</h1>
+                        <h1> Chandrakumar</h1>
+                    </div>
+                    <h2 >Fresher in Frontend</h2>
+                    <p>Hello, my name is chandru,I am 20 years old from tamilnadu,I studied B.Sc computer science. Now I am currently looking for Frontend developer Job. I Will expercence in React Js .Then I will Develop some Project in react Js library. I will also know c++ little bit for programming logic building </p>
+                    <button onclick="alert('update soon')">View Resume</button>
+                </div>
+                    <img src="assets/sss.png" alt="">
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <img src="assets/wall.jpg" alt="">
+            <div class="about-cont">
+                <!-- <p>Hello, my name is chandru,I am 20 years old from tamilnadu,I studied B.Sc computer science. Now I am currently looking for Frontend developer Job. I Will expercence in React Js .Then I will Develop some Project in react Js library. I will also know c++ little bit for programming logic building</p>              -->
+                <ul>
+                        <h1>About Me</h1>
+                        <li>I'm a Fresher, A 21 year boy from TamilNadu, very passionate about doing small things in a greater way.</li>
+                        <li>Looking for a position in Web development to start my carrier.</li>
+                        <li>A self motivated and Passionated person towards making new stuff and learning new Trending technologies.</li>
+                        <li>Having knowledge of various Frontend Frameworks and Libraries,with hands on working with stuff on my own projects.</li>
+                        <li>I'm a fresher and 2024 year Graduate. I have completed few projects to showcase my talent on Frontend technologies Frontend developer is my 1'st on my career..</li>
+                     </ul>
+                </div>
+        </div>
+
+       
+        <div class="education" id="education">
+            <h1>Educations</h1>
+            <div class="edu-container">
+                <div class="college edu-item edu-item1">
+                    <img src="assets/grad.png" alt="">
+                    <div>
+                        <h3>Bacholer of Science</h3>
+                        <p>Computer Science</p>
+                        <p>Gov arts college karur</p>
+                        <p>Graduated with 8.3 CGPA or 83 %</p>
+                        <p>From 2021 to 2024</p>
+                    </div>
+                </div>
+                <div class="college edu-item edu-item2">
+                    <img src="assets/schl.png" alt="">
+                    <div>
+                        <h3>Higher Secondary</h3>
+                        <p>Bio-Maths</p>
+                        <p>Ranimeyyammai Hr sec School, Karur</p>
+                        <p>Graduated with 8.3 CGPA or 83 %</p>
+                        <p>From 2019 to 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills" id="skills">
+            <h1>Skills</h1>
+            <div class="skill-container">
+                <div class="skill-item">
+                    <img src="assets/html.png" alt="">
+                    <div>
+                        <h2>HTML <span>80%</span></h2>
+                        <progress value=80 max=100>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/css.png" alt="">
+                    <div>
+                        <h2>CSS <span>70%</span></h2>
+                        <progress value=70 max=100>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/javascript.png" alt="">
+                    <div>
+                        <h2>JS <span>50%</span></h2>
+                        <progress value=50 max=100>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/react.png" alt="">
+                    <div>
+                        <h2>React <span>40%</span></h2>
+                        <progress value=40 max=100 >
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/cppl.png" alt="">
+                    <div>
+                        <h2>c++ <span>60%</span></h2>
+                        <progress value=60 max=100>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/mysql.png" alt="">
+                    <div>
+                        <h2>MySql <span>30%</span></h2>
+                        <progress value=30 max=100>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="certificates">
+            <h1>Certificates</h1>
+            <!-- <button data-modal-target="#modal">Open Modal</button> -->
+            <div class="cer-contaier">
+                <div class="cer-item">
+                    <!-- <img src="assets/certifications/cer-1.png" alt=""> -->
+                    <button onclick="openModal(1)">Click here</button>
+                </div>
+                <div class="cer-item">
+                    <!-- <img src="assets/certifications/cer-2.png" alt=""> -->
+                    <button onclick="openModal(2)">Click here</button>
+                    
+                </div>
+                <div class="cer-item">
+                    <!-- <img src="assets/certifications/cer-3.png" alt=""> -->
+                    <button onclick="openModal(3)">Click here</button>
+                    
+                </div>
+                </div>
+            </div>
+
+            <div class="social" id="social">
+                <h1>SocialMedia</h1>
+                <div class="soc-container">
+                    <a href="https://www.linkedin.com/in/chandrakumar-v-28bb4b25a" target="_blank"><img src="assets/linkedin-logo.png" alt=""></a>
+                    <a href=""><img src="assets/facebook-logo.png" alt=""></a>
+                    <a href="https://www.instagram.com/__chandru__25/" target="_blank"><img src="assets/insta-logo.png" alt=""></a>
+                    
+                    
+                   
+
+                </div>
+            </div>
+
+            <div class="contact" id="contact">
+                <h1>Contact</h1>
+                <form name="contact-form" action="https://script.google.com/macros/s/AKfycbyAO6GNfMV0rF6NNFLfqHO9GiLtrPuqcdFZv1ZHeD_ojVa0zzLLsTwKapnFTTULk5nN/exec" method="post">
+                    <div class="item-con">
+                        <div class="item-con-left">
+                                <input type="text" name="name"  placeholder="Enter a name">
+                                <input type="text" name="email" placeholder="Enter a email">
+                                <input type="text" name="phone" placeholder="Enter a phone no">
+                        </div>
+                        <div class="item-con-right">
+                                <textarea name="description" id="textar" placeholder="Write description"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit">Sumbit</button>
+                </form>
+            </div>
+        </div>
+    
+    
+    
+    <div id="overlay" onclick="closeModal()"></div>
+    <script src="script.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyAO6GNfMV0rF6NNFLfqHO9GiLtrPuqcdFZv1ZHeD_ojVa0zzLLsTwKapnFTTULk5nN/exec'
+
+        const form = document.forms['contact-form']
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thank you! Submitted successfully." ))
+        .then(() => { window.location.reload(); })
+        .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
